@@ -11,7 +11,7 @@ This repository contains a Pytorch implementation of the paper:
 <br>
 <br>
 
-![teaser](figures/teaser.png)
+![teaser](figures/correspondence.png)
 
 ### Dependencies
 * Python 3.6
