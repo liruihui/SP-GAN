@@ -40,14 +40,14 @@ To train a model on point clouds sampled from 3D shapes:
 
 Log files and network parameters will be saved to `log` folder in default. 
 
-For your reference, the pretrained models are also avalible from <a href="https://drive.google.com/file/d/1AvnHDdR_N63ZGuakhaGkyk0EJPFzsvHR/view?usp=sharing" target="_blank">here</a>
+For your reference, the pretrained models are also available from <a href="https://drive.google.com/file/d/1AvnHDdR_N63ZGuakhaGkyk0EJPFzsvHR/view?usp=sharing" target="_blank">here</a>
 
 We provide various visulization function for shape interpolation, part interpolation, and so on. 
 
     python visual.py
 
 ### Evaluation
-Pls ref to
+Please ref to
 <a href="https://github.com/optas/latent_3d_points" target="_blank">Latent-GAN</a>, <a href="https://github.com/stevenygd/PointFlow" target="_blank">PointFlow</a>, and <a href="https://github.com/fpthink/PDGN" target="_blank">PDGN</a>
 
 
@@ -55,7 +55,7 @@ Pls ref to
 If you find our work useful in your research, please consider citing:
 ```
 @article{li2021spgan,
-  title={SP-GAN:Sphere-Guided 3D Shape Generation and Manipulation},
+  title={{SP-GAN}:Sphere-Guided 3D Shape Generation and Manipulation},
   author={Li, Ruihui and Li, Xianzhi and Hui, Ke-Hei and Fu, Chi-Wing},
   journal={ACM Transactions on Graphics (Proc. SIGGRAPH)},
   volume={40},
