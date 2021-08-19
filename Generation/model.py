@@ -313,8 +313,8 @@ class Model(object):
                 self.scheduler_D.step(epoch)
 
             time_tick = time.time() - start_time
-            self.log_string("Epoch: [%2d] time: %2dm %2ds d_loss4: %.8f, g_loss: %.8f moving: %.8f" \
-                            % (epoch, time_tick / 60, time_tick % 60,  d_avg_meter.avg, g_avg_meter.avg,moving_avg_meter.avg))
+            self.log_string("Epoch: [%2d] time: %2dm %2ds d_loss4: %.8f, g_loss: %.8f" \
+                            % (epoch, time_tick / 60, time_tick % 60,  d_avg_meter.avg, g_avg_meter.avg))
             self.log_string("real_acc: %f  fake_acc: %f" % (real_acc_avg_meter.avg, fake_acc_avg_meter.avg))
             self.log_string("lr_g: %f  lr_d: %f" % (self.optimizerG.param_groups[0]['lr'], self.optimizerD.param_groups[0]['lr']))
             print("step_d:%d step_g:%d"%(step_d,step_g))
