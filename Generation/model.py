@@ -288,7 +288,6 @@ class Model(object):
                 if self.writer is not  None:
                     self.writer.add_scalar("loss/d_Loss", lossD.data, global_step)
                     self.writer.add_scalar("loss/g_Loss", lossG.data, global_step)
-                    self.writer.add_scalar("loss/moving_dist", moving_dist.data, global_step)
                     self.writer.add_scalar("acc/real_acc", info['real_acc'], global_step)
                     self.writer.add_scalar("acc/fake_acc", info['fake_acc'], global_step)
 
